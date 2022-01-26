@@ -1,13 +1,15 @@
+import flower from "./flower.png";
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-    Hello
+    <img src={flower} className="flower"
+    alt="purple flower"/>
       </header>
     </div>
   );
 }
 
-export default App;
+
