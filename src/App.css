@@ -1,14 +1,14 @@
-.App-header{
-    margin:30px 0;
+.App-header {
+  margin: 30px 0;
 }
 
-.flower{
-    max-width:300px;
-    display: block;
-    margin: 0 auto;
+.flower {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-footer{
-    text-align: center;
-    margin:30px 0;
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
 }
