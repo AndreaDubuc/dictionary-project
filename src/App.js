@@ -11,7 +11,7 @@ export default function App() {
           <img src={flower} className="flower" alt="purple flower" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="euphoria" />
         </main>
         <footer className="App-footer">
           <small>Coded by Andrea Dubuc</small>
