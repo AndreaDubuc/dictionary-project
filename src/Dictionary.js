@@ -44,7 +44,8 @@ function load(){
             <input type="search" onChange={handleKeywordChange} />
           </form>
           <div className="hint">
-            suggested words: sunset, wine, yoga, forest, plant...
+            suggested words: aurora, idyllic, supine, clinomania,
+            petrichor...
           </div>
         </section>
         <Results results={results} />
