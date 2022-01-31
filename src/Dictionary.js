@@ -16,6 +16,7 @@ export default function Dictionary(props) {
     // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+    // TODO: #2 You should try and do some error handling in the event the API fails.
   }
 
   function handleSubmit(event) {
@@ -46,7 +47,6 @@ function load(){
             suggested words: sunset, wine, yoga, forest, plant...
           </div>
         </section>
-        <br />
         <Results results={results} />
       </div>
     );

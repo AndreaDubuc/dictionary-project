@@ -3,3 +3,7 @@
     font-weight: bold;
     line-height:1.5;
 }
+
+section{
+    max-width: 516px ;
+}
