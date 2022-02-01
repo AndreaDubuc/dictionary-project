@@ -14,7 +14,11 @@ export default function Photos(props) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={photo.src.tiny} className="img-fluid" />
+                  <img
+                    src={photo.src.tiny}
+                    alt="Images related to word searched"
+                    className="img-fluid"
+                  />
                 </a>
               </div>
             );
