@@ -1,7 +1,9 @@
 import flower from "./flower.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
-import React from "react";
+import React from 'react';
+import ParticleBackground from './ParticleBackground';
+
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
           <img src={flower} className="flower" alt="purple flower" />
         </header>
         <main>
+          <ParticleBackground />
           <Dictionary defaultKeyword="euphoria" />
         </main>
         <footer className="App-footer">

@@ -39,7 +39,7 @@ function handlePexelResponse(response) {
   }
 
 
-  function handleSubmit(event) {
+  function handleSubmit(event) { 
     event.preventDefault();
     search();
   }
