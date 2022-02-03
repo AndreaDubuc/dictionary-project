@@ -31,7 +31,7 @@ function handlePexelResponse(response) {
 
     let pexelsApiKey =
       '563492ad6f917000010000018ae84ba919b24864b3653a96e2268bbc';
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios
       .get(pexelsApiUrl, { headers: headers })
@@ -69,8 +69,8 @@ function load(){
             />
           </form>
           <div className="hint">
-            suggested words: aurora, idyllic, supine, clinomania,
-            petrichor...
+            suggested words: candy, sweet, ice cream, chocolate,
+            cake...
           </div>
         </section>
         <Results results={results} />

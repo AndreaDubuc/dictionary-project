@@ -1,23 +1,37 @@
+html, body{
+    background: linear-gradient(102.7deg, rgb(253, 218, 255) 8.2%, rgb(223, 173, 252) 19.6%, rgb(173, 205, 252) 36.8%, rgb(173, 252, 244) 73.2%, rgb(202, 248, 208) 90.9%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+
+
 .Dictionary h1{
     font-size:18px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
+    color: #FF69B4;
 }
 
 
 .Dictionary section {
-    background: white;
-    padding: 25px;
+    background: #FDDAFE;
+    opacity: 90%;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgb(0 0 0 /10%);
+    color: #FF69B4;
 }
 
 .Dictionary input{
     width: 100%;
     border-radius:6px;
     padding: 6px 4px;
-    color: #333;
-    border: 1px solid #ddd;
+    color:#f980bd;
+    border: none;
 
 }
 
@@ -25,3 +39,6 @@
     margin-top: 5px;
     font-size: 11px;
 }
+
+
+
