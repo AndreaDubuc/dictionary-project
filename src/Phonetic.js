@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactAudioPlayer from 'react-audio-player';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 import './Phonetic.css';
 
 export default function Phonetic(props) {
@@ -8,7 +9,10 @@ export default function Phonetic(props) {
       <span className="text my-2"> /{props.phonetic.text}/ </span>
       <br />
       <div className="audio-player">
-        <ReactAudioPlayer src={props.phonetics.audio} controls />
+        <AudioPlayer
+          src={props.phonetic.audio}
+          onPlay={(e) => console.log('onPlay')}
+        />
       </div>
     </div>
   );
