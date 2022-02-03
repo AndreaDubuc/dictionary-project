@@ -6993,13 +6993,6 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
-"react-audio-player@^0.17.0":
-  "integrity" "sha512-aCZgusPxA9HK7rLZcTdhTbBH9l6do9vn3NorgoDZRxRxJlOy9uZWzPaKjd7QdcuP2vXpxGA/61JMnnOEY7NXeA=="
-  "resolved" "https://registry.npmjs.org/react-audio-player/-/react-audio-player-0.17.0.tgz"
-  "version" "0.17.0"
-  dependencies:
-    "prop-types" "^15.7.2"
-
 "react-dev-utils@^12.0.0":
   "integrity" "sha512-xBQkitdxozPxt1YZ9O1097EJiVpwHr9FoAuEVURCKV0Av8NBERovJauzP7bo1ThvuhZ4shsQ1AJiu4vQpoT1AQ=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.0.tgz"
@@ -7030,7 +7023,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^16.3.0 || ^17.0.0", "react-dom@^17.0.2", "react-dom@>=16":
+"react-dom@*", "react-dom@^16.3.0 || ^17.0.0", "react-dom@^17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -7123,15 +7116,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react-tsparticles@^1.39.2":
-  "integrity" "sha512-KDMLhKHuLQS3M6tKiS9fAt9dWWEuckv/Bhh3kqGAXwS9JnA7UGklav4WrtKlZE8fKTQ+c1yIRPfX2GD+AaNZ3g=="
-  "resolved" "https://registry.npmjs.org/react-tsparticles/-/react-tsparticles-1.39.2.tgz"
-  "version" "1.39.2"
-  dependencies:
-    "fast-deep-equal" "^3.1.3"
-    "tsparticles" "^1.39.2"
-
-"react@*", "react@^16.3.0 || ^17.0.0", "react@^17.0.2", "react@>= 16", "react@>=16", "react@17.0.2":
+"react@*", "react@^16.3.0 || ^17.0.0", "react@^17.0.2", "react@>= 16", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -8172,11 +8157,6 @@
   "integrity" "sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
   "version" "2.3.1"
-
-"tsparticles@^1.39.2":
-  "integrity" "sha512-ClhuRuruVoR0ijj4fA8tmV+dRgGymMNqcBlvYu2gKUUIXRAkQRJrRfzqHqHY9eHqC/7gXEr6yUTNHs2vvvvUqw=="
-  "resolved" "https://registry.npmjs.org/tsparticles/-/tsparticles-1.39.2.tgz"
-  "version" "1.39.2"
 
 "tsutils@^3.21.0":
   "integrity" "sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA=="
